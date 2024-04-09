@@ -62,10 +62,12 @@ body {
 .img-logo {
   height: 100px;
   width: 100px;
+  margin-right: 1rem;
 }
 
 .text-logo {
   font-size: 2rem;
+  margin-left: 1rem;
 }
 
 .top-left-logo {
