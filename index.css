@@ -17,7 +17,7 @@ body {
   margin: 0;
   font-family: "Jetbrains Mono", monospace;
   --primary-color: #1e1e1e;
-  --secondary-color: #ECD264;
+  --secondary-color: #ecd264;
 }
 
 a {
@@ -32,8 +32,8 @@ button {
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
   border-radius: 9999px;
-  border-style:solid;
-  font-family:inherit;
+  border-style: solid;
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -127,18 +127,24 @@ button {
 }
 
 .button-signup:hover {
-  box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color), 0 0 40px var(--secondary-color);
+  box-shadow:
+    0 0 10px var(--secondary-color),
+    0 0 20px var(--secondary-color),
+    0 0 40px var(--secondary-color);
 }
 
 .button-login:hover {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+  box-shadow:
+    0 0 10px white,
+    0 0 20px white,
+    0 0 40px white;
 }
 
 .landing-text {
   margin: 0;
   padding: 0;
-  width: 34rem;  
-  text-wrap:wrap;
+  width: 34rem;
+  text-wrap: wrap;
 }
 
 .text-large {
@@ -168,12 +174,12 @@ button {
 }
 
 .landing-center-content {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .action-button {
@@ -185,5 +191,45 @@ button {
 }
 
 .action-button:hover {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+  box-shadow:
+    0 0 10px white,
+    0 0 20px white,
+    0 0 40px white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  color: var(--primary-color);
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.vision-mission {
+  text-align:center;
+  font-size: 2rem;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #FF75C3, #FFA647, #FFE83F, #9FFF5B, #70E2FF, #CD93FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
