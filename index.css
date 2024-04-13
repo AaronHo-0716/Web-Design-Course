@@ -212,11 +212,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   padding-top: 10rem;
   padding-bottom: 10rem;
   padding-left: 12rem;
   padding-right: 12rem;
-
 }
 
 .section-title {
@@ -232,4 +232,15 @@ section {
   background: linear-gradient(to right, #FF75C3, #FFA647, #FFE83F, #9FFF5B, #70E2FF, #CD93FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.section-partner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.partner-logo {
+  height: 6rem;
 }
