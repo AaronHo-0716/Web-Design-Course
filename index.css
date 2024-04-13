@@ -220,7 +220,8 @@ section {
 }
 
 .section-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 .vision-mission {
@@ -243,4 +244,25 @@ section {
 
 .partner-logo {
   height: 6rem;
+}
+
+.accordion-question {
+  font-size: 1.75rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: white;
+  border-radius: 0;
+  border-width: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.accordion-panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
 }
