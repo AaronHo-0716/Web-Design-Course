@@ -205,6 +205,24 @@ button {
     0 0 40px white;
 }
 
+.action-button-black {
+  border-color: var(--primary-color);
+  border-width: 0.25rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.action-button-black:hover {
+  border-color: white;
+  background-color: white;
+  color: var(--secondary-color);
+  border-width: 0.25rem;
+  box-shadow:
+    0 0 20px var(--secondary-color),
+    0 0 40px var(--secondary-color),
+    0 0 80px var(--secondary-color);
+}
+
 section {
   display: flex;
   flex-direction: column;
