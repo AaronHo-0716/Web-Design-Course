@@ -19,7 +19,7 @@ body {
     font-family: jetbrains mono;;
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .nav-container{
     height: 20vh;
@@ -33,7 +33,7 @@ body {
     padding-bottom: 2rem;
 }
 .page-title{
-    margin-right: 5rem;
+    margin-right: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,32 +42,29 @@ body {
     font-weight: regular;
     font-family: jetbrains mono;
 }
-.side-menu{
-    height: auto;
-    width:30vh;
-    padding-left: 2rem;
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 }
-.side-menu-item{
-    padding-top: 2rem;
-    text-align: center;
-    margin-left: 2.25rem;
-    margin-right: 2.25rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+.intro{
+    padding-right: 20px;
+    width: 100%;
+
+}
+.intro-title{
     font-family: jetbrains mono;
-}
-.side-menu-button{
-    width:10rem;
-    background-color: #ecd264;
-    border: #1e1e1e solid 2px;
-    border-radius: 10px;
-    color:#1e1e1e;
-    padding:15px;
+    font-style: bold;
     text-align: center;
-    text-decoration: none;
-    display:inline-block;
+    font-size: 1.5rem;
+}
+.intro-subtitle{
+    text-align: center;
+    font-style: italic;
+    font-family: jetbrains mono;
     font-size: 1.25rem;
-    margin: 2px 2px;
-    cursor: pointer;
 }
