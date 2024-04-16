@@ -3,66 +3,71 @@ body {
     --primary-color: #1e1e1e;
     --secondary-color: #ecd264;
   }
-  
+.header{
+
+}  
 .top-left-logo{
-    padding: 10px;
-    vertical-align: middle;
-    position: absolute;
-    left: 2%;
-    top: 2%;
-  }
-  .top-left-logo img{
-    width: 100px;
-    height: 100px;
-  }
-  .header{
-    color:var(--primary-color);
-    padding: 10px;
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    font-family: jetbrains mono;
-    top:2%
-  }
-  .name{
-    color:var(--primary-color);
-    top:2%;
-    left:12%;
-    vertical-align: middle;
-    position: absolute;
-    font-size: 20px;
-    font-family: jetbrains mono;
-  }
-  .sidebar {
-    height: 50%;
-    width: 20%;
-    position: fixed;
-    top: 20%;
-    left: 5%;
-    background-color: var(--secondary-color);
-    overflow-x: hidden;
-    padding-top: 20px;
-    border-radius: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-
-.sidebar a{
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--primary-color);
-    display: block;
-    border: none;
-    background: none;
+.top-left-logo img{
+    width:100px;
+    height:auto
+}
+.text-logo{
+    font-family: jetbrains mono;;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.nav-container{
+    height: 20vh;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.page-title{
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: regular;
+    font-family: jetbrains mono;
+}
+.side-menu{
+    height: auto;
+    width:30vh;
+    padding-left: 2rem;
+}
+.side-menu-item{
+    padding-top: 2rem;
     text-align: center;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: jetbrains mono;
+}
+.side-menu-button{
+    width:10rem;
+    background-color: #ecd264;
+    border: #1e1e1e solid 2px;
+    border-radius: 10px;
+    color:#1e1e1e;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1.25rem;
+    margin: 2px 2px;
     cursor: pointer;
-    outline: none;
 }
-
-.sidebar a:hover{
-    color: #f1f1f1;
-}
-
- 
