@@ -69,15 +69,6 @@ button {
   width: 100%;
 }
 
-.footer {
-  background-color: #1e1e1e;
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .nav-pages {
   display: flex;
   flex-direction: row;
@@ -205,6 +196,24 @@ button {
     0 0 40px white;
 }
 
+.action-button-black {
+  border-color: var(--primary-color);
+  border-width: 0.25rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.action-button-black:hover {
+  border-color: white;
+  background-color: white;
+  color: var(--secondary-color);
+  border-width: 0.25rem;
+  box-shadow:
+    0 0 20px var(--secondary-color),
+    0 0 40px var(--secondary-color),
+    0 0 80px var(--secondary-color);
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -254,35 +263,86 @@ section {
   height: 6rem;
 }
 
-.accordion-container {
+.accordion {
+  background-color: white;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  font-size: 1rem;
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  border-radius: 1rem;
-  border-width: 0.25rem;
-  border-color: var(--primary-color);
-  border-style: solid;
+  margin-top:5rem
 }
 
-.accordion-question {
-  font-size: 1.75rem;
-  font-weight: bold;
-  width: 100%;
-  background-color: lightgrey;
-  border-radius: 0;
-  border-width: 0;
-  text-align: left;
-  padding: 0;
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 2.5rem;
+  width: 24rem;
 }
 
-.accordion-panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+.footer-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: white;
 }
-.active, .accordion:hover {
-  background-color: #ccc;
+
+.footer-bottom {
+  margin-top: 5rem;
 }
