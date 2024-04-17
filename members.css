@@ -1,5 +1,24 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #d9d9d9;
+  height: 100vh;
+  margin: 0;
+  font-family: "Jetbrains Mono", monospace;
+  --primary-color: #1e1e1e;
+  --secondary-color: #ecd264;
 }
 
 .footer {
@@ -31,7 +50,7 @@ body {
 .footer-icon {
   height: 2.5rem;
   width: 2.5rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .footer-bottom {
