@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--primary-color);
+  height: 100vh;
+  margin: 0;
+  font-family: "Jetbrains Mono", monospace;
+  --primary-color: #1e1e1e;
+  --secondary-color: #ecd264;
 }
 
 .footer {
@@ -13,11 +18,12 @@ body {
 }
 
 .footer-content {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem
+  margin-top:5rem
 }
 
 .footer-icons {
@@ -31,9 +37,10 @@ body {
 .footer-icon {
   height: 2.5rem;
   width: 2.5rem;
-  color: white;
+  color: var(--primary-color);
 }
 
 .footer-bottom {
+  color: white ;
   margin-top: 5rem;
 }
