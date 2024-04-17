@@ -1,11 +1,25 @@
-body {
-    background-color: #d9d9d9;
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+body{
+    width:100vw;
+    background-color: var(--primary-color);
     --primary-color: #1e1e1e;
     --secondary-color: #ecd264;
+    font-family: jetbrains mono;
+    margin:0;
+    padding:0;
   }
-.header{
 
-}  
 .top-left-logo{
     display:flex;
     justify-content:center;
@@ -16,6 +30,7 @@ body {
     height:auto
 }
 .text-logo{
+    color: white;
     font-family: jetbrains mono;;
     font-size: 2rem;
     font-weight: bold;
@@ -40,11 +55,11 @@ body {
     align-items: center;
     font-size: 2rem;
     font-weight: regular;
-    font-family: jetbrains mono;
+    color: white;
 }
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
@@ -54,17 +69,76 @@ body {
 .intro{
     padding-right: 20px;
     width: 100%;
-
 }
 .intro-title{
-    font-family: jetbrains mono;
+    color:white;
     font-style: bold;
     text-align: center;
     font-size: 1.5rem;
+
 }
 .intro-subtitle{
+    color:white;
     text-align: center;
     font-style: italic;
-    font-family: jetbrains mono;
     font-size: 1.25rem;
+}
+.catalogue{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height:auto;
+    background-color: var(--secondary-color);
+    border: #1e1e1e 2px solid;
+    border-radius: 20px;
+}
+.catalogue h1{
+    text-align: center;
+}
+.course-box{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-direction:row;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.course-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border:#1e1e1e 2px solid;
+    border-radius: 20px;
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    border:#1e1e1e 2px solid;
+    width: 30%;
+    color: aliceblue;
+    height: 30rem;
+}
+.course-image{
+    width:auto;
+    height:auto;
+    border-radius: 20px;
+}
+.course-container h2{
+    font-size: 20px;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.course-container p{
+    font-size: 15px;
+    text-align: center;
+    color: var(--primary-color);
 }
