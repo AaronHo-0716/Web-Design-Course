@@ -1,7 +1,70 @@
+header {
+  background-color: #1E1E1E;
+  color: white;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.top-left-logo {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.text-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.team-links {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 100px;
+}
+
+.team-links a {
+  margin-left: 0.5rem;
+  color: white;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.team-links a:hover {
+  text-decoration: underline;
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.img-logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 1rem;
+}
+
+.text-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
 }
 
 *,
@@ -17,6 +80,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Jetbrains Mono", monospace;
+  text-align: center;
   --primary-color: #1e1e1e;
   --secondary-color: #ecd264;
 }
@@ -32,6 +96,7 @@ body {
 }
 
 .footer-content {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,8 +116,12 @@ body {
   height: 2.5rem;
   width: 2.5rem;
   color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+
+  color: var(--primary-color);
 }
 
 .footer-bottom {
+  color: white;
   margin-top: 5rem;
 }
