@@ -127,6 +127,7 @@ body{
 }
 .course-button
 {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -241,7 +242,6 @@ body{
   }
   
   .btn {
-    margin-top: 20px;
     padding: 0.8rem 1.4rem;
     font-weight: 700;
     background-color: black;
@@ -252,7 +252,7 @@ body{
   }
   
   .btn-open {
-    margin-bottom: 20px;
+    bottom: 20px;
   }
   
   .btn-close {
