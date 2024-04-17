@@ -39,8 +39,13 @@
             <div class="course-box">
                 <div class="course-container">
                     <img src="assets/bitcoin.jpg" alt="bitcoin" class="course-image">
-                    <h2>Introduction to Cryptocurrency</h2>
-                    <p>Learn about the science behind cryptocurrency and it's impact.</p>
+                    <div>
+                        <h2>Introduction to Cryptocurrency</h2>
+                        <p>Learn about the science behind cryptocurrency and it's impact.</p>
+                    </div>
+                    <div class="course-button">
+                        <button class="btn btn-open">More Details</button>
+                    </div>   
                 </div>
                 <div class="course-container">
                     <img src="assets/nft.jpg" alt="nft" class="course-image">
@@ -120,5 +125,28 @@
           2024 | Asia Pacific University Blockchain and Cryptocurrency Club
         </p>
       </div>
+
+      <section class="modal hidden">
+        <div class="flex">
+          <img src="assets/bitcoin.jpg" alt="user" />
+          <button class="btn-close">⨉</button>
+        </div>
+        <div>
+          <h2>Introduction to Cryptocurrency</h2>
+          <br>
+          <h4>Learn about the science behind cryptocurrency and it's impact.</h4>
+          <br>
+          <p>Course content:</p>
+          <p>1. 3 hour video</p>
+          <p>2. Quizzes and Challenges</p>
+          <p>3. Certification upon completion</p>
+        </div>
+      
+        <button class="btn">Enroll Now</button>
+      </section>
+      
+      <div class="overlay hidden"></div>
+      
 </body>
+<script src="course.js"></script>
 </html>
