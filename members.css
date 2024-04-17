@@ -75,13 +75,56 @@ html {
 }
 
 body {
-  background-color: #d9d9d9;
+  background-color: #fff;
   height: 100vh;
   margin: 0;
   font-family: "Jetbrains Mono", monospace;
   text-align: center;
   --primary-color: #1e1e1e;
   --secondary-color: #ecd264;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  padding-left: 120px;
+  padding-right: 60px;
+  margin: 10px;
+  text-align: left;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  margin-right: 5px;
+  border-radius: 10%;
+}
+
+.team-member h3 {
+  margin: 10px;
+}
+
+.team-member p {
+  color: #000000;
+}
+
+.icons {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 .footer {
