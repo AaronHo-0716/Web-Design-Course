@@ -2,6 +2,7 @@ const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector(".btn-open");
 const closeModalBtn = document.querySelector(".btn-close");
+const enrollButton = document.querySelector(".enroll");
 
 const openModal = function () {
     modal.classList.remove("hidden");
@@ -14,6 +15,11 @@ const closeModal = function () {
     modal.classList.add("hidden");
     overlay.classList.add("hidden");
   };
+
+const enroll = function () {
+    alert("You have successfully enrolled in the course!");
+    }
+enrollButton.addEventListener("click", enroll);
 
 closeModalBtn.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
