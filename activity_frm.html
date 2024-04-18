@@ -17,17 +17,18 @@
     <div class="landing">
         <nav class="nav-container">
             <div class="top-left-logo">
-                <img
-                  src="assets/logo/APUBCC.png"
-                  alt="APUBCC Logo"
-                  class="img-logo"
-                />
-                <span class="text-logo">APUBCC</span>
+                <a href="index.html">
+                  <img 
+                  src="assets/logo/APUBCC.png" 
+                  alt="APUBCC Logo" 
+                  class="img-logo" /></a>
+                <a href="index.html">
+                  <span class="text-logo">APUBCC</span></a>
             </div>
 
             <div class="nav-pages">
                 <div class="nav-item">
-                  <a href="#">Activities</a>
+                  <a href="./activity_main.html">Activities</a>
                 </div>
                 <div class="nav-item">
                   <a href="./course.html">Course</a>
@@ -88,10 +89,33 @@
 
         <div>
 
-            
+
         </div>
 
         <!-- FORM -->
+        <div class="form-container">
+            <form id="myForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="how-found">How did you find out about this activity:</label>
+                <textarea id="how-found" name="how-found" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
 
     <!-- FOOTER -->
     <div class="footer">
