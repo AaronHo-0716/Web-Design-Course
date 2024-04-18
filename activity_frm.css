@@ -403,12 +403,14 @@ html {
   }
 
   /* FORM */
-.form-container {
-    max-width: 400px;
+  .form-container {
+    background-color: white;
+    color: black; 
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid black;
     border-radius: 5px;
+    width: 100%;
   }
   .form-group {
     margin-bottom: 20px;
@@ -421,15 +423,17 @@ html {
   .form-group input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
+    color: white; 
   }
   .form-group textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
     resize: vertical;
+    color: white; /
   }
   .form-group button {
     padding: 10px 20px;
