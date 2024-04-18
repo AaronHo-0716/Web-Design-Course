@@ -1,0 +1,10 @@
+
+.title-Ongoing-Activities {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-left, .column-right {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin as needed */
+}
