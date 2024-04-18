@@ -89,7 +89,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 80vh
+  min-height: 80vh;
+  height: auto;
 }
 
 .team-member {
