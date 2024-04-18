@@ -214,24 +214,39 @@ html {
     border-color: white;
   }
 
-  /* ACTIVITY */
-  .activity-background {
-    color: white;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    height: 100%;
-    width: 80%;
-    padding: 40px;
-  }
 
-  .activity-line {
-    border-color: white;
-    background-color: black;
-    width: 100%;
-    border-width: 2px;
-  }
+/* DETAILS */
+.header-details {
+  font-size: 30px;
+  color:var(--primary-color)
+}
 
+.details-container {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.details {
+  text-align: left;
+  font-size: 30px;
+}
+
+.description-header {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  margin-bottom: 100px;
+}
 
   /* ONGOING ACTIVITITES*/
   .background-black {
@@ -272,12 +287,36 @@ html {
     margin-bottom: 100px;
   }
 
+  .activity-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 30px;
+  }
+
   .activity {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 20rem;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .activity2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
     height: 100%;
     background-color: white;
     padding: 30px;
@@ -378,38 +417,7 @@ html {
     padding: 20px;
   }
 
-  /* DETAILS */
-  .header-details {
-    font-size: 30px;
-    color:var(--primary-color)
-  }
-
-  .details-container {
-    display : flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .details {
-    text-align: left;
-    font-size: 30px;
-  }
-
-  .description-header {
-    font-weight: bolder;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
   
-  .description {
-    text-align: center;
-    font-size: 15px;
-    width: 80%;
-    margin-bottom: 100px;
-  }
 
 
   /* FOOTER */
