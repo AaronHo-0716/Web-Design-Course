@@ -31,41 +31,6 @@ header a {
   margin-left: 1rem;
 }
 
-.team-links {
-  display: flex;
-  align-items: center;
-  margin-left: 8rem;
-}
-
-.team-links a {
-  margin-left: 0.5rem;
-  color: white;
-  margin-right: 80px;
-  text-decoration: none;
-}
-
-.team-links a:hover {
-  text-decoration: underline;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.img-logo {
-  height: 100px;
-  width: 100px;
-  margin-right: 1rem;
-}
-
-.text-logo {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 1rem;
-}
-
 *,
 *:before,
 *:after {
@@ -82,51 +47,6 @@ body {
   text-align: center;
   --primary-color: #1e1e1e;
   --secondary-color: #ecd264;
-}
-
-.team-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.team-member {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-align: left;
-}
-
-.team-member img {
-  width: 150px;
-  height: 150px;
-  margin-right: 5px;
-  border-radius: 10%;
-}
-
-.team-member h3 {
-  margin: 10px;
-}
-
-.team-member p {
-  color: #000000;
-}
-
-.icons {
-  display: flex;
-  justify-content: left;
-  margin-top: 20px;
-}
-
-.icons img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-  cursor: pointer;
 }
 
 .footer {
